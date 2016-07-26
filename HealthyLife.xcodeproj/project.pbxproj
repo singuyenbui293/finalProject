@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84181DE21D47C99800686BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181DE11D47C99800686BAB /* AppDelegate.swift */; };
+		84181DE41D47C99800686BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181DE31D47C99800686BAB /* ViewController.swift */; };
+		84181DE71D47C99800686BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84181DE51D47C99800686BAB /* Main.storyboard */; };
+		84181DEA1D47C99800686BAB /* HealthyLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84181DE81D47C99800686BAB /* HealthyLife.xcdatamodeld */; };
+		84181DEC1D47C99800686BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84181DEB1D47C99800686BAB /* Assets.xcassets */; };
+		84181DEF1D47C99800686BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84181DED1D47C99800686BAB /* LaunchScreen.storyboard */; };
+		84181DFA1D47C99800686BAB /* HealthyLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181DF91D47C99800686BAB /* HealthyLifeTests.swift */; };
+		84181E051D47C99800686BAB /* HealthyLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181E041D47C99800686BAB /* HealthyLifeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84181DF61D47C99800686BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84181DD61D47C99800686BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84181DDD1D47C99800686BAB;
+			remoteInfo = HealthyLife;
+		};
+		84181E011D47C99800686BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84181DD61D47C99800686BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84181DDD1D47C99800686BAB;
+			remoteInfo = HealthyLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84181DDE1D47C99800686BAB /* HealthyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84181DE11D47C99800686BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84181DE31D47C99800686BAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84181DE61D47C99800686BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84181DE91D47C99800686BAB /* HealthyLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthyLife.xcdatamodel; sourceTree = "<group>"; };
+		84181DEB1D47C99800686BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84181DEE1D47C99800686BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84181DF01D47C99800686BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84181DF51D47C99800686BAB /* HealthyLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84181DF91D47C99800686BAB /* HealthyLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyLifeTests.swift; sourceTree = "<group>"; };
+		84181DFB1D47C99800686BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84181E001D47C99800686BAB /* HealthyLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84181E041D47C99800686BAB /* HealthyLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyLifeUITests.swift; sourceTree = "<group>"; };
+		84181E061D47C99800686BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84181DDB1D47C99800686BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84181DF21D47C99800686BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84181DFD1D47C99800686BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84181DD51D47C99800686BAB = {
+			isa = PBXGroup;
+			children = (
+				84181DE01D47C99800686BAB /* HealthyLife */,
+				84181DF81D47C99800686BAB /* HealthyLifeTests */,
+				84181E031D47C99800686BAB /* HealthyLifeUITests */,
+				84181DDF1D47C99800686BAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84181DDF1D47C99800686BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84181DDE1D47C99800686BAB /* HealthyLife.app */,
+				84181DF51D47C99800686BAB /* HealthyLifeTests.xctest */,
+				84181E001D47C99800686BAB /* HealthyLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84181DE01D47C99800686BAB /* HealthyLife */ = {
+			isa = PBXGroup;
+			children = (
+				84181DE11D47C99800686BAB /* AppDelegate.swift */,
+				84181DE31D47C99800686BAB /* ViewController.swift */,
+				84181DE51D47C99800686BAB /* Main.storyboard */,
+				84181DEB1D47C99800686BAB /* Assets.xcassets */,
+				84181DED1D47C99800686BAB /* LaunchScreen.storyboard */,
+				84181DF01D47C99800686BAB /* Info.plist */,
+				84181DE81D47C99800686BAB /* HealthyLife.xcdatamodeld */,
+			);
+			path = HealthyLife;
+			sourceTree = "<group>";
+		};
+		84181DF81D47C99800686BAB /* HealthyLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				84181DF91D47C99800686BAB /* HealthyLifeTests.swift */,
+				84181DFB1D47C99800686BAB /* Info.plist */,
+			);
+			path = HealthyLifeTests;
+			sourceTree = "<group>";
+		};
+		84181E031D47C99800686BAB /* HealthyLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84181E041D47C99800686BAB /* HealthyLifeUITests.swift */,
+				84181E061D47C99800686BAB /* Info.plist */,
+			);
+			path = HealthyLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84181DDD1D47C99800686BAB /* HealthyLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84181E091D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLife" */;
+			buildPhases = (
+				84181DDA1D47C99800686BAB /* Sources */,
+				84181DDB1D47C99800686BAB /* Frameworks */,
+				84181DDC1D47C99800686BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthyLife;
+			productName = HealthyLife;
+			productReference = 84181DDE1D47C99800686BAB /* HealthyLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84181DF41D47C99800686BAB /* HealthyLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84181E0C1D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLifeTests" */;
+			buildPhases = (
+				84181DF11D47C99800686BAB /* Sources */,
+				84181DF21D47C99800686BAB /* Frameworks */,
+				84181DF31D47C99800686BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84181DF71D47C99800686BAB /* PBXTargetDependency */,
+			);
+			name = HealthyLifeTests;
+			productName = HealthyLifeTests;
+			productReference = 84181DF51D47C99800686BAB /* HealthyLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84181DFF1D47C99800686BAB /* HealthyLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84181E0F1D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLifeUITests" */;
+			buildPhases = (
+				84181DFC1D47C99800686BAB /* Sources */,
+				84181DFD1D47C99800686BAB /* Frameworks */,
+				84181DFE1D47C99800686BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84181E021D47C99800686BAB /* PBXTargetDependency */,
+			);
+			name = HealthyLifeUITests;
+			productName = HealthyLifeUITests;
+			productReference = 84181E001D47C99800686BAB /* HealthyLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84181DD61D47C99800686BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NguyenBui;
+				TargetAttributes = {
+					84181DDD1D47C99800686BAB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					84181DF41D47C99800686BAB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84181DDD1D47C99800686BAB;
+					};
+					84181DFF1D47C99800686BAB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84181DDD1D47C99800686BAB;
+					};
+				};
+			};
+			buildConfigurationList = 84181DD91D47C99800686BAB /* Build configuration list for PBXProject "HealthyLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84181DD51D47C99800686BAB;
+			productRefGroup = 84181DDF1D47C99800686BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84181DDD1D47C99800686BAB /* HealthyLife */,
+				84181DF41D47C99800686BAB /* HealthyLifeTests */,
+				84181DFF1D47C99800686BAB /* HealthyLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84181DDC1D47C99800686BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84181DEF1D47C99800686BAB /* LaunchScreen.storyboard in Resources */,
+				84181DEC1D47C99800686BAB /* Assets.xcassets in Resources */,
+				84181DE71D47C99800686BAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84181DF31D47C99800686BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84181DFE1D47C99800686BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84181DDA1D47C99800686BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84181DE41D47C99800686BAB /* ViewController.swift in Sources */,
+				84181DEA1D47C99800686BAB /* HealthyLife.xcdatamodeld in Sources */,
+				84181DE21D47C99800686BAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84181DF11D47C99800686BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84181DFA1D47C99800686BAB /* HealthyLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84181DFC1D47C99800686BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84181E051D47C99800686BAB /* HealthyLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84181DF71D47C99800686BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84181DDD1D47C99800686BAB /* HealthyLife */;
+			targetProxy = 84181DF61D47C99800686BAB /* PBXContainerItemProxy */;
+		};
+		84181E021D47C99800686BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84181DDD1D47C99800686BAB /* HealthyLife */;
+			targetProxy = 84181E011D47C99800686BAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84181DE51D47C99800686BAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84181DE61D47C99800686BAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84181DED1D47C99800686BAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84181DEE1D47C99800686BAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84181E071D47C99800686BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84181E081D47C99800686BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84181E0A1D47C99800686BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthyLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyenbui.com.HealthyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84181E0B1D47C99800686BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthyLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyenbui.com.HealthyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84181E0D1D47C99800686BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HealthyLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyenbui.com.HealthyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthyLife.app/HealthyLife";
+			};
+			name = Debug;
+		};
+		84181E0E1D47C99800686BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HealthyLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyenbui.com.HealthyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthyLife.app/HealthyLife";
+			};
+			name = Release;
+		};
+		84181E101D47C99800686BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HealthyLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyenbui.com.HealthyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HealthyLife;
+			};
+			name = Debug;
+		};
+		84181E111D47C99800686BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HealthyLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nguyenbui.com.HealthyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HealthyLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84181DD91D47C99800686BAB /* Build configuration list for PBXProject "HealthyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84181E071D47C99800686BAB /* Debug */,
+				84181E081D47C99800686BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84181E091D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84181E0A1D47C99800686BAB /* Debug */,
+				84181E0B1D47C99800686BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84181E0C1D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84181E0D1D47C99800686BAB /* Debug */,
+				84181E0E1D47C99800686BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84181E0F1D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84181E101D47C99800686BAB /* Debug */,
+				84181E111D47C99800686BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84181DE81D47C99800686BAB /* HealthyLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84181DE91D47C99800686BAB /* HealthyLife.xcdatamodel */,
+			);
+			currentVersion = 84181DE91D47C99800686BAB /* HealthyLife.xcdatamodel */;
+			path = HealthyLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84181DD61D47C99800686BAB /* Project object */;
+}
