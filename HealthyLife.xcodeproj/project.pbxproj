@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FEE3F4FA3D69AF73B170521 /* Pods_HealthyLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ED28D4D03289767984B938 /* Pods_HealthyLife.framework */; };
 		84181DE21D47C99800686BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181DE11D47C99800686BAB /* AppDelegate.swift */; };
-		84181DE41D47C99800686BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181DE31D47C99800686BAB /* ViewController.swift */; };
 		84181DE71D47C99800686BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84181DE51D47C99800686BAB /* Main.storyboard */; };
 		84181DEA1D47C99800686BAB /* HealthyLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84181DE81D47C99800686BAB /* HealthyLife.xcdatamodeld */; };
 		84181DEC1D47C99800686BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84181DEB1D47C99800686BAB /* Assets.xcassets */; };
 		84181DEF1D47C99800686BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84181DED1D47C99800686BAB /* LaunchScreen.storyboard */; };
 		84181DFA1D47C99800686BAB /* HealthyLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181DF91D47C99800686BAB /* HealthyLifeTests.swift */; };
 		84181E051D47C99800686BAB /* HealthyLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181E041D47C99800686BAB /* HealthyLifeUITests.swift */; };
+		84181E131D47CAC500686BAB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181E121D47CAC500686BAB /* SignInViewController.swift */; };
+		84181E151D47CAD800686BAB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181E141D47CAD800686BAB /* CreateAccountViewController.swift */; };
+		84181E171D47CB7300686BAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84181E161D47CB7300686BAB /* GoogleService-Info.plist */; };
+		84AB527D1D48877400CB99FE /* journalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB527C1D48877400CB99FE /* journalViewController.swift */; };
+		84AB52801D48881F00CB99FE /* foodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB527F1D48881F00CB99FE /* foodModel.swift */; };
+		84AB52821D488A6000CB99FE /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB52811D488A6000CB99FE /* FoodTableViewCell.swift */; };
+		84B343D91D485AC80085F02E /* uploadFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B343D81D485AC80085F02E /* uploadFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27ED28D4D03289767984B938 /* Pods_HealthyLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthyLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A91B12079A8F4C1D8E52CAC /* Pods-HealthyLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthyLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthyLife/Pods-HealthyLife.release.xcconfig"; sourceTree = "<group>"; };
+		8139B3732A6950CCA938866A /* Pods-HealthyLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthyLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthyLife/Pods-HealthyLife.debug.xcconfig"; sourceTree = "<group>"; };
 		84181DDE1D47C99800686BAB /* HealthyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84181DE11D47C99800686BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84181DE31D47C99800686BAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84181DE61D47C99800686BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84181DE91D47C99800686BAB /* HealthyLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthyLife.xcdatamodel; sourceTree = "<group>"; };
 		84181DEB1D47C99800686BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		84181E001D47C99800686BAB /* HealthyLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84181E041D47C99800686BAB /* HealthyLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyLifeUITests.swift; sourceTree = "<group>"; };
 		84181E061D47C99800686BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84181E121D47CAC500686BAB /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		84181E141D47CAD800686BAB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		84181E161D47CB7300686BAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84AB527C1D48877400CB99FE /* journalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = journalViewController.swift; sourceTree = "<group>"; };
+		84AB527F1D48881F00CB99FE /* foodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodModel.swift; sourceTree = "<group>"; };
+		84AB52811D488A6000CB99FE /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		84B343D81D485AC80085F02E /* uploadFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uploadFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEE3F4FA3D69AF73B170521 /* Pods_HealthyLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		293FBAE7311AD53C884F0F93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8139B3732A6950CCA938866A /* Pods-HealthyLife.debug.xcconfig */,
+				7A91B12079A8F4C1D8E52CAC /* Pods-HealthyLife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84181DD51D47C99800686BAB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +109,8 @@
 				84181DF81D47C99800686BAB /* HealthyLifeTests */,
 				84181E031D47C99800686BAB /* HealthyLifeUITests */,
 				84181DDF1D47C99800686BAB /* Products */,
+				293FBAE7311AD53C884F0F93 /* Pods */,
+				EFB43DCE55C0AD6018ABC50F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +127,16 @@
 		84181DE01D47C99800686BAB /* HealthyLife */ = {
 			isa = PBXGroup;
 			children = (
+				84AB527E1D48880C00CB99FE /*  model */,
+				84B343D51D485A970085F02E /* personal */,
+				84B343D41D485A8B0085F02E /* logIn */,
 				84181DE11D47C99800686BAB /* AppDelegate.swift */,
-				84181DE31D47C99800686BAB /* ViewController.swift */,
 				84181DE51D47C99800686BAB /* Main.storyboard */,
 				84181DEB1D47C99800686BAB /* Assets.xcassets */,
 				84181DED1D47C99800686BAB /* LaunchScreen.storyboard */,
 				84181DF01D47C99800686BAB /* Info.plist */,
 				84181DE81D47C99800686BAB /* HealthyLife.xcdatamodeld */,
+				84181E161D47CB7300686BAB /* GoogleService-Info.plist */,
 			);
 			path = HealthyLife;
 			sourceTree = "<group>";
@@ -128,6 +159,41 @@
 			path = HealthyLifeUITests;
 			sourceTree = "<group>";
 		};
+		84AB527E1D48880C00CB99FE /*  model */ = {
+			isa = PBXGroup;
+			children = (
+				84AB527F1D48881F00CB99FE /* foodModel.swift */,
+			);
+			name = " model";
+			sourceTree = "<group>";
+		};
+		84B343D41D485A8B0085F02E /* logIn */ = {
+			isa = PBXGroup;
+			children = (
+				84181E141D47CAD800686BAB /* CreateAccountViewController.swift */,
+				84181E121D47CAC500686BAB /* SignInViewController.swift */,
+			);
+			name = logIn;
+			sourceTree = "<group>";
+		};
+		84B343D51D485A970085F02E /* personal */ = {
+			isa = PBXGroup;
+			children = (
+				84B343D81D485AC80085F02E /* uploadFoodViewController.swift */,
+				84AB527C1D48877400CB99FE /* journalViewController.swift */,
+				84AB52811D488A6000CB99FE /* FoodTableViewCell.swift */,
+			);
+			name = personal;
+			sourceTree = "<group>";
+		};
+		EFB43DCE55C0AD6018ABC50F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27ED28D4D03289767984B938 /* Pods_HealthyLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84181E091D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLife" */;
 			buildPhases = (
+				9F3531942EA58E9CF2848D05 /* Check Pods Manifest.lock */,
 				84181DDA1D47C99800686BAB /* Sources */,
 				84181DDB1D47C99800686BAB /* Frameworks */,
 				84181DDC1D47C99800686BAB /* Resources */,
+				137E2E15B951E35907C4B17A /* Embed Pods Frameworks */,
+				8FA4E8D7D6E6D38E177F0168 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84181E171D47CB7300686BAB /* GoogleService-Info.plist in Resources */,
 				84181DEF1D47C99800686BAB /* LaunchScreen.storyboard in Resources */,
 				84181DEC1D47C99800686BAB /* Assets.xcassets in Resources */,
 				84181DE71D47C99800686BAB /* Main.storyboard in Resources */,
@@ -254,14 +324,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		137E2E15B951E35907C4B17A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthyLife/Pods-HealthyLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA4E8D7D6E6D38E177F0168 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthyLife/Pods-HealthyLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F3531942EA58E9CF2848D05 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84181DDA1D47C99800686BAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84181DE41D47C99800686BAB /* ViewController.swift in Sources */,
+				84181E151D47CAD800686BAB /* CreateAccountViewController.swift in Sources */,
 				84181DEA1D47C99800686BAB /* HealthyLife.xcdatamodeld in Sources */,
 				84181DE21D47C99800686BAB /* AppDelegate.swift in Sources */,
+				84B343D91D485AC80085F02E /* uploadFoodViewController.swift in Sources */,
+				84AB527D1D48877400CB99FE /* journalViewController.swift in Sources */,
+				84AB52821D488A6000CB99FE /* FoodTableViewCell.swift in Sources */,
+				84AB52801D48881F00CB99FE /* foodModel.swift in Sources */,
+				84181E131D47CAC500686BAB /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +524,7 @@
 		};
 		84181E0A1D47C99800686BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8139B3732A6950CCA938866A /* Pods-HealthyLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HealthyLife/Info.plist;
@@ -412,6 +536,7 @@
 		};
 		84181E0B1D47C99800686BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A91B12079A8F4C1D8E52CAC /* Pods-HealthyLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HealthyLife/Info.plist;
@@ -486,6 +611,7 @@
 				84181E0B1D47C99800686BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84181E0C1D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +620,7 @@
 				84181E0E1D47C99800686BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84181E0F1D47C99800686BAB /* Build configuration list for PBXNativeTarget "HealthyLifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +629,7 @@
 				84181E111D47C99800686BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
