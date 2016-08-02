@@ -82,3 +82,12 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-HealthyLife/NSDate_TimeAgo.framework"
+  install_framework "Pods-HealthyLife/ScrollPager.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-HealthyLife/NSDate_TimeAgo.framework"
+  install_framework "Pods-HealthyLife/ScrollPager.framework"
+fi

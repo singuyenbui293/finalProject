@@ -18,10 +18,22 @@
 		84181E131D47CAC500686BAB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181E121D47CAC500686BAB /* SignInViewController.swift */; };
 		84181E151D47CAD800686BAB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84181E141D47CAD800686BAB /* CreateAccountViewController.swift */; };
 		84181E171D47CB7300686BAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84181E161D47CB7300686BAB /* GoogleService-Info.plist */; };
+		8482256F1D4E414500750118 /* demoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482256E1D4E414500750118 /* demoModel.swift */; };
+		848225711D4E42CB00750118 /* demoLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848225701D4E42CB00750118 /* demoLibViewController.swift */; };
+		848225731D4E430D00750118 /* demoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848225721D4E430D00750118 /* demoTableViewCell.swift */; };
+		848225751D4E436F00750118 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848225741D4E436F00750118 /* DetailsViewController.swift */; };
+		84937EE21D5081EC00E9CBC0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84937EE11D5081EC00E9CBC0 /* SettingViewController.swift */; };
 		84AB527D1D48877400CB99FE /* journalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB527C1D48877400CB99FE /* journalViewController.swift */; };
 		84AB52801D48881F00CB99FE /* foodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB527F1D48881F00CB99FE /* foodModel.swift */; };
 		84AB52821D488A6000CB99FE /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB52811D488A6000CB99FE /* FoodTableViewCell.swift */; };
 		84B343D91D485AC80085F02E /* uploadFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B343D81D485AC80085F02E /* uploadFoodViewController.swift */; };
+		84FACC9B1D4EF86700E73FDC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FACC9A1D4EF86700E73FDC /* Data.swift */; };
+		84FACCA01D4F01FD00E73FDC /* weeklyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FACC9F1D4F01FD00E73FDC /* weeklyPlanViewController.swift */; };
+		84FACCA21D4F021100E73FDC /* dailyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FACCA11D4F021100E73FDC /* dailyPlanViewController.swift */; };
+		84FACCA41D4F022200E73FDC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FACCA31D4F022200E73FDC /* DetailViewController.swift */; };
+		84FACCA81D4F048A00E73FDC /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FACCA71D4F048A00E73FDC /* DailyPlan.swift */; };
+		84FACCAD1D4F3D6A00E73FDC /* NewfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FACCAC1D4F3D6A00E73FDC /* NewfeedViewController.swift */; };
+		84FACCAF1D4F3EC700E73FDC /* newFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FACCAE1D4F3EC700E73FDC /* newFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +73,22 @@
 		84181E121D47CAC500686BAB /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		84181E141D47CAD800686BAB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		84181E161D47CB7300686BAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8482256E1D4E414500750118 /* demoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demoModel.swift; sourceTree = "<group>"; };
+		848225701D4E42CB00750118 /* demoLibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demoLibViewController.swift; sourceTree = "<group>"; };
+		848225721D4E430D00750118 /* demoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demoTableViewCell.swift; sourceTree = "<group>"; };
+		848225741D4E436F00750118 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		84937EE11D5081EC00E9CBC0 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		84AB527C1D48877400CB99FE /* journalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = journalViewController.swift; sourceTree = "<group>"; };
 		84AB527F1D48881F00CB99FE /* foodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodModel.swift; sourceTree = "<group>"; };
 		84AB52811D488A6000CB99FE /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		84B343D81D485AC80085F02E /* uploadFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uploadFoodViewController.swift; sourceTree = "<group>"; };
+		84FACC9A1D4EF86700E73FDC /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		84FACC9F1D4F01FD00E73FDC /* weeklyPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weeklyPlanViewController.swift; sourceTree = "<group>"; };
+		84FACCA11D4F021100E73FDC /* dailyPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dailyPlanViewController.swift; sourceTree = "<group>"; };
+		84FACCA31D4F022200E73FDC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84FACCA71D4F048A00E73FDC /* DailyPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
+		84FACCAC1D4F3D6A00E73FDC /* NewfeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewfeedViewController.swift; sourceTree = "<group>"; };
+		84FACCAE1D4F3EC700E73FDC /* newFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +151,9 @@
 		84181DE01D47C99800686BAB /* HealthyLife */ = {
 			isa = PBXGroup;
 			children = (
+				84937EE31D5089BF00E9CBC0 /* setting */,
+				84FACCAB1D4F3D5200E73FDC /* newFeed */,
+				8482256D1D4E412F00750118 /* demo */,
 				84AB527E1D48880C00CB99FE /*  model */,
 				84B343D51D485A970085F02E /* personal */,
 				84B343D41D485A8B0085F02E /* logIn */,
@@ -159,10 +186,32 @@
 			path = HealthyLifeUITests;
 			sourceTree = "<group>";
 		};
+		8482256D1D4E412F00750118 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				848225701D4E42CB00750118 /* demoLibViewController.swift */,
+				848225721D4E430D00750118 /* demoTableViewCell.swift */,
+				848225741D4E436F00750118 /* DetailsViewController.swift */,
+			);
+			name = demo;
+			sourceTree = "<group>";
+		};
+		84937EE31D5089BF00E9CBC0 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				84937EE11D5081EC00E9CBC0 /* SettingViewController.swift */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
 		84AB527E1D48880C00CB99FE /*  model */ = {
 			isa = PBXGroup;
 			children = (
 				84AB527F1D48881F00CB99FE /* foodModel.swift */,
+				8482256E1D4E414500750118 /* demoModel.swift */,
+				84FACC9A1D4EF86700E73FDC /* Data.swift */,
+				84FACCA71D4F048A00E73FDC /* DailyPlan.swift */,
+				84FACCAE1D4F3EC700E73FDC /* newFeed.swift */,
 			);
 			name = " model";
 			sourceTree = "<group>";
@@ -179,11 +228,46 @@
 		84B343D51D485A970085F02E /* personal */ = {
 			isa = PBXGroup;
 			children = (
+				84FACC9E1D4F017D00E73FDC /* activitiesPlanned */,
+				84FACC9D1D4F017400E73FDC /* activitiesDone */,
+				84FACC9C1D4F016600E73FDC /* food */,
+			);
+			name = personal;
+			sourceTree = "<group>";
+		};
+		84FACC9C1D4F016600E73FDC /* food */ = {
+			isa = PBXGroup;
+			children = (
 				84B343D81D485AC80085F02E /* uploadFoodViewController.swift */,
 				84AB527C1D48877400CB99FE /* journalViewController.swift */,
 				84AB52811D488A6000CB99FE /* FoodTableViewCell.swift */,
 			);
-			name = personal;
+			name = food;
+			sourceTree = "<group>";
+		};
+		84FACC9D1D4F017400E73FDC /* activitiesDone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = activitiesDone;
+			sourceTree = "<group>";
+		};
+		84FACC9E1D4F017D00E73FDC /* activitiesPlanned */ = {
+			isa = PBXGroup;
+			children = (
+				84FACC9F1D4F01FD00E73FDC /* weeklyPlanViewController.swift */,
+				84FACCA11D4F021100E73FDC /* dailyPlanViewController.swift */,
+				84FACCA31D4F022200E73FDC /* DetailViewController.swift */,
+			);
+			name = activitiesPlanned;
+			sourceTree = "<group>";
+		};
+		84FACCAB1D4F3D5200E73FDC /* newFeed */ = {
+			isa = PBXGroup;
+			children = (
+				84FACCAC1D4F3D6A00E73FDC /* NewfeedViewController.swift */,
+			);
+			name = newFeed;
 			sourceTree = "<group>";
 		};
 		EFB43DCE55C0AD6018ABC50F /* Frameworks */ = {
@@ -380,11 +464,23 @@
 				84181E151D47CAD800686BAB /* CreateAccountViewController.swift in Sources */,
 				84181DEA1D47C99800686BAB /* HealthyLife.xcdatamodeld in Sources */,
 				84181DE21D47C99800686BAB /* AppDelegate.swift in Sources */,
+				84FACCA21D4F021100E73FDC /* dailyPlanViewController.swift in Sources */,
 				84B343D91D485AC80085F02E /* uploadFoodViewController.swift in Sources */,
+				84FACCA01D4F01FD00E73FDC /* weeklyPlanViewController.swift in Sources */,
 				84AB527D1D48877400CB99FE /* journalViewController.swift in Sources */,
+				84FACCA41D4F022200E73FDC /* DetailViewController.swift in Sources */,
+				84FACCA81D4F048A00E73FDC /* DailyPlan.swift in Sources */,
+				84FACCAD1D4F3D6A00E73FDC /* NewfeedViewController.swift in Sources */,
 				84AB52821D488A6000CB99FE /* FoodTableViewCell.swift in Sources */,
 				84AB52801D48881F00CB99FE /* foodModel.swift in Sources */,
+				848225711D4E42CB00750118 /* demoLibViewController.swift in Sources */,
+				84FACC9B1D4EF86700E73FDC /* Data.swift in Sources */,
+				8482256F1D4E414500750118 /* demoModel.swift in Sources */,
+				84937EE21D5081EC00E9CBC0 /* SettingViewController.swift in Sources */,
 				84181E131D47CAC500686BAB /* SignInViewController.swift in Sources */,
+				848225731D4E430D00750118 /* demoTableViewCell.swift in Sources */,
+				84FACCAF1D4F3EC700E73FDC /* newFeed.swift in Sources */,
+				848225751D4E436F00750118 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

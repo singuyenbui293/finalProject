@@ -56,7 +56,13 @@ class SignInViewController: UIViewController {
         if let user = FIRAuth.auth()?.currentUser {
             // User is signed in.
             
+            let defaults = NSUserDefaults.standardUserDefaults()
+            
+            defaults.setBool(true, forKey: "checkID")
+            
+            
             self.performSegueWithIdentifier("1", sender: self)
+            
             
         } else {
             // No user is signed in.

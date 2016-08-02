@@ -19,6 +19,10 @@ class CreateAccountViewController: UIViewController {
     
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBAction func cancelAction(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+        
+    }
     
     @IBAction func createButton(sender: AnyObject) {
         if let email = emailTextField.text, let password = passwordTextField.text, let username = usernameTextfield.text {
@@ -31,7 +35,8 @@ class CreateAccountViewController: UIViewController {
                         if error != nil {
                             
                         } else {
-                            
+                            self.ref.child("users").child(user!.uid).child("username").setValue(username)
+
                             self.performSegueWithIdentifier("2", sender: self)
                         }
                     })

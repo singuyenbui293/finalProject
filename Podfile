@@ -8,6 +8,8 @@ pod 'Firebase'
 pod 'Firebase/Database'
 pod 'Firebase/Storage'
 pod 'Firebase/Auth'
+pod 'NSDate+TimeAgo'
+pod 'ScrollPager', '~> 0.7'
 end
 
 target 'HealthyLifeTests' do

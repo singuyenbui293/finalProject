@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NSDate+TimeAgo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-HealthyLife.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ScrollPager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,7 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2AE7B4D446CE7FB966EE1BD4B60D6EE8</key>
+		<key>24E75244E6D3B073E9EFD4E1A7F86A4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>524F3AA8BB891D04E2737D464FF8E5B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAC000F8613C4650B18BBFC2FD565E40</key>
 		<dict>
 			<key>primary</key>
 			<true/>
